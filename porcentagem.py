@@ -1,15 +1,15 @@
 print("--------------------------------")
-print("CALCULADORA DE PORCENTAGEM")   #-- > Mensagem de boas vindas
+print("CALCULADORA DE PORCENTAGEM")
 print("--------------------------------")
 
-numero = input("Insira o valor: ")  # --> Pede o valor
-numero = int(numero)  #--> Passa o valor de str para int
+numero = input("Insira o valor: ")
+numero = int(numero)
 
-porcentagem = input("Quantos porcento: ")  #--> Pega o valor da porcentagem
-porcentagem = int(porcentagem) #--> Passa o valor de str para int
+porcentagem = input(f"Quantos porcento de {numero} você quer saber: ")
+porcentagem = int(porcentagem)
 
-resultado = float((porcentagem * numero) / 100 )  #--> Calculo para saber a porcentagem
+resultado = float((porcentagem * numero) / 100 )
 
 print("--------------------------------")
-print(f"{porcentagem}% de {numero} é: {resultado}")  #--> Exibi o resultado
+print(f"{porcentagem}% de {numero} é: {resultado}")
 print("--------------------------------")
